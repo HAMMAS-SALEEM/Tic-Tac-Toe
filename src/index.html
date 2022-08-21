@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <ul class="gameboard">
+        <li id="1" class="board-box"></li>
+        <li id="2" class="board-box"></li>
+        <li id="3" class="board-box"></li>
+        <li id="4" class="board-box"></li>
+        <li id="5" class="board-box"></li>
+        <li id="6" class="board-box"></li>
+        <li id="7" class="board-box"></li>
+        <li id="8" class="board-box"></li>
+        <li id="9" class="board-box"></li>
+    </ul>
+    <div id="overlay" class="winner-popup-overlay">
+      <div id="popup" class="winner-popup">
+          <h1 class="winner-name"></h1>
+          <button type="button" class="reset">Reset</button>
+      </div>
+    </div>
 </body>
 </html>
